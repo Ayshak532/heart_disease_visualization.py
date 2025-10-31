@@ -1,0 +1,7 @@
+Gender,Age,BMI,Blood Pressure,Cholesterol Level,Triglyceride Level,Fasting Blood Sugar,Sleep Hours,CRP Level,Homocysteine Level,Heart Disease Status
+Male,52,27.3,130,210,160,110,7,3.5,14,Yes
+Female,45,24.1,120,190,140,95,8,2.8,11,No
+Male,60,30.2,145,240,180,125,6,4.0,16,Yes
+Female,38,22.5,110,170,130,90,9,2.5,10,No
+Male,50,28.7,135,220,155,115,7,3.9,15,Yes
+Female,55,26.4,125,200,145,105,8,3.2,12,No
