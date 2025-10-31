@@ -1,29 +1,43 @@
 # ❤️ Heart Disease Prediction Using Data Visualization
 
-## 🧠 Project Overview
-This project focuses on predicting and understanding heart disease risk factors using data visualization techniques.  
-By analyzing clinical, lifestyle, and medical data, the project identifies patterns and correlations that contribute to heart disease.  
-The goal is to provide clear visual insights that support early diagnosis and healthcare decision-making.
+## 📘 Overview
+This project focuses on **analyzing medical and lifestyle data** to identify patterns and risk factors associated with heart disease using **data science and visualization techniques**.  
+By leveraging Python libraries, statistical analysis, and graphical tools, this project demonstrates how data visualization aids healthcare professionals in understanding risk factors and improving patient outcomes.
 
 ---
 
-## 📊 Project Workflow
-
-### **1. Data Collection**
-- Clinical data: Age, Gender, Blood Pressure, Cholesterol Level  
-- Lifestyle factors: Smoking habits, Exercise frequency, Diet  
-- Medical history: Diabetes, Previous heart conditions  
-- Diagnostic data: ECG and echocardiogram readings  
-
-**Dataset Source:** [Kaggle Heart Disease Dataset](https://www.kaggle.com/)  
+## 🧩 Objectives
+- To analyze medical datasets and identify correlations between factors like age, cholesterol, blood pressure, etc.
+- To visualize the data using plots, charts, and graphs for better insights.
+- To understand trends and distributions in patient health indicators.
+- To lay a foundation for predictive modeling of heart disease.
 
 ---
 
-### **2. Data Preprocessing**
-- Handled missing values using the `fillna()` method.  
-- Normalized and transformed data for consistency.  
-- Checked data summary using:
+## 🧠 Dataset
+- **Source:** Kaggle  
+- **Data Includes:**
+  - Clinical Data: Age, Gender, Cholesterol, Blood Pressure
+  - Lifestyle Factors: Smoking, Exercise, Diet
+  - Medical History: Diabetes, Previous Heart Conditions
+  - Diagnostic Data: ECG, Echocardiogram
+
+---
+
+## ⚙️ Tools & Technologies
+| Category | Tools |
+|-----------|-------|
+| **Language** | Python |
+| **Libraries** | Pandas, NumPy, Matplotlib, Seaborn, SciPy |
+| **Environment** | Jupyter Notebook |
+
+---
+
+## 🔄 Data Preprocessing
+- Handling missing values using `fillna()` with mean replacement.
+- Normalization and transformation for consistent scale.
+- Dataset inspection using:
   ```python
-  df.describe()
   df.info()
+  df.describe()
   df.isnull().sum()
